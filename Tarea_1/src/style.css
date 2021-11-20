@@ -1,0 +1,94 @@
+/*Para quitar los margenes */
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Para poner imagen de fondo*/
+.principal{
+    background-color: #1E1E1E;
+    background-image: url("./assets/FondoPantalla.jpg");
+    background-size: cover;
+}
+
+
+/*Las características del encabezado*/
+.header{
+    display: flex;
+    background-color: rgba(85, 83, 83, 0.137);
+    color:white;
+}
+
+.header h1{
+    font-size: 50px;
+    margin-right: 55px;   
+}
+
+/*Ancho de las columnas*/
+.col-6{
+    width: 50%;  
+}
+
+.inicio{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    color: chartreuse;
+}
+
+.logo-inicio{
+    width: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*Para que todo se alinie en un reglón, centrado y al final*/
+.navegador{
+    align-items: center;
+    display: flex;
+    justify-content: end;   
+}
+
+/*Configuración de Inicio y Sobre mi*/
+.navegador a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    margin-right: 55px;
+}
+
+/*Ajustar el tamaño del icono de facebook*/
+.boton-facebook{
+    width: 80px;
+    margin-top: 20px;
+}
+
+/*---------------------------------------------------------------------*/
+.row{
+    display: flex;
+}
+
+.col-4{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+}
+
+#contenedor{
+    margin: 50px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.article{
+    opacity: 0.10;
+    width: 8000px;
+    height: 1000px;
+    margin-top: 500px;
+    background-color: rgb(211, 37, 255);
+    border-radius: 15px;
+    text-align: right;
+    color: brown;
+}
+
+
